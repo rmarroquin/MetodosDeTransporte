@@ -325,7 +325,8 @@ err:
 
     Private Sub AcercaDeToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AcercaDeToolStripMenuItem1.Click
         ActiveForm.SendToBack()
-        Dim acercade1 As New InvestigaciondeOperaciones.AcercadeEsquinaNorOeste
+        Dim acercade1 As New MetodosDeTransporte.AcercadeEsquinaNorOeste
+
         acercade1.ShowDialog()
     End Sub
 

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <ProjectGuid>{77560155-E007-4ADC-B202-E7252A9D7084}</ProjectGuid>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MetodosDeTransporte.My.MyApplication</StartupObject>
+    <RootNamespace>MetodosDeTransporte</RootNamespace>
+    <AssemblyName>MetodosDeTransporte</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <Nonshipping>true</Nonshipping>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>Table.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcercadeCostoMinimo.Designer.vb">
+      <DependentUpon>AcercadeCostoMinimo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AcercadeCostoMinimo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcercadeEsquinaNorOeste.Designer.vb">
+      <DependentUpon>AcercadeEsquinaNorOeste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AcercadeEsquinaNorOeste.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcercadeMetodosdeTransporte.Designer.vb">
+      <DependentUpon>AcercadeMetodosdeTransporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AcercadeMetodosdeTransporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcercadeRussell.Designer.vb">
+      <DependentUpon>AcercadeRussell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AcercadeRussell.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcercadeVoguel.Designer.vb">
+      <DependentUpon>AcercadeVoguel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AcercadeVoguel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCostoMinimo.Designer.vb">
+      <DependentUpon>frmCostoMinimo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCostoMinimo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEsquinaNorOeste.Designer.vb">
+      <DependentUpon>frmEsquinaNorOeste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEsquinaNorOeste.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRussell.Designer.vb">
+      <DependentUpon>frmRussell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRussell.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVoguel.Designer.vb">
+      <DependentUpon>frmVoguel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVoguel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.vb">
+      <DependentUpon>MenuPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AcercadeCostoMinimo.resx">
+      <DependentUpon>AcercadeCostoMinimo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcercadeEsquinaNorOeste.resx">
+      <DependentUpon>AcercadeEsquinaNorOeste.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcercadeMetodosdeTransporte.resx">
+      <DependentUpon>AcercadeMetodosdeTransporte.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcercadeRussell.resx">
+      <DependentUpon>AcercadeRussell.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcercadeVoguel.resx">
+      <DependentUpon>AcercadeVoguel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCostoMinimo.resx">
+      <DependentUpon>frmCostoMinimo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEsquinaNorOeste.resx">
+      <DependentUpon>frmEsquinaNorOeste.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRussell.resx">
+      <DependentUpon>frmRussell.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVoguel.resx">
+      <DependentUpon>frmVoguel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EsquinaNorOesteicon.bmp" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Table.ico" />
+    <Content Include="UpgradeLog.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -10,11 +10,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Investigacion de Operaciones")> 
-<Assembly: AssemblyDescription("Programa para realizar los metodos de transporte en Investigacion de Operaciones")> 
+<Assembly: AssemblyTitle("Metodos de Transporte")> 
+<Assembly: AssemblyDescription("Investigacion de operaciones")> 
 <Assembly: AssemblyCompany("UMG Coatepeque, Quetzaltenango, Guatemala")> 
 <Assembly: AssemblyProduct("Investigacion de Operaciones")> 
-<Assembly: AssemblyCopyright("Copyright © Ricardo Fernando Marroquin Gramajo")> 
+<Assembly: AssemblyCopyright("Ricardo Marroquin")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(True)> 
